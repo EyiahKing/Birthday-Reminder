@@ -12,7 +12,7 @@ function App() {
 
       <h3>{people.length} birthdays today</h3>
       <List /* passing people*/ people={people}/>
-      <button onClick={()=> console.log("you clicked me")}>
+      <button onClick={()=> setPeople([])}>
         clear all</button>
     </section>
   </main>
